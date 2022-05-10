@@ -11,10 +11,10 @@ export default function Privacy() {
             <li>
               <Link to="/mygitpage/about">About</Link>
             </li>
+            <li>Privacy</li>
             <li>
             <Link to="/mygitpage/myportfolio">My Portfolio</Link>
           </li>
-            <li>Privacy</li>
           </ul>
         </nav>
         <main>

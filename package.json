@@ -1,7 +1,7 @@
 {
   "name": "gitpage",
   "version": "0.1.0",
-  "homepage": "https://lucas-narfgren.github.io/mygitpage",
+  "homepage": "https://lucasnarfgren.github.io/mygitpage",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
