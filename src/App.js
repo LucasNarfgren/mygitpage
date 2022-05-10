@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path="/mygitpage/" element={<Home />} />
+        <Route path="/mygitpage/home" element={<Home />} />
         <Route path="/mygitpage/about" element={<About />} />
         <Route path="/mygitpage/privacy" element={<Privacy />} />
         <Route path="/mygitpage/myportfolio" element={<MyPortfolio />} />
