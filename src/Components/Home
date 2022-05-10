@@ -1,0 +1,26 @@
+import { Link } from "react-router-dom";
+
+export default function Home() {
+  return (
+    <>
+      <nav>
+        <ul className="my-list">
+          <li>Home</li>
+          <li>
+            <Link to="/mygitpage/about">About</Link>
+          </li>
+          <li>
+            <Link to="/mygitpage/privacy">Privacy</Link>
+          </li>
+          <li>
+            <Link to="/mygitpage/myportfolio">My Portfolio</Link>
+          </li>
+        </ul>
+      </nav>
+      <main>
+        <h2>Welcome to the homepage</h2>
+        <p>You will get more information later</p>
+      </main>
+    </>
+  );
+}
